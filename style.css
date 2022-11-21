@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+  }
+  nav {
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+
+    
+  }
+  #logo-text {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 140px;
+    line-height: 45px;
+    
+  }
+  
+  
+  ul {
+    float: right;
+    margin-right: 40px;
+  }
+  li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 50px;
+  }
+  a {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 10px;
+  }
+  .view, a:hover {
+    border: 1px dotted black;
+    color: white;
+    background: black;
+    transition: 2s;
+  }
+  .profile-img, img {
+    width: 45%;
+    height: 10%;
+  }
+  main {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 5%;
+  }
+ 
+
+  .middle, .second-section {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* INTRO SECTION */
+  #introduction {
+    margin-top: 5%;
+    width: 50%;
+  }
+
+  #introduction, h1{
+    margin-bottom: 10px;
+    color: blueviolet;
+  }
+  p{
+    color: black;
+  }
+ 
+  .journey p{
+    margin-top: 10px;
+    width: 70%;
+    /* padding-right: 10%; */
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    padding-left: 2%;
+  }
+  .skills p {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+  }
+  .journey, .skills {
+    width: 50%;
+  }
